@@ -40,7 +40,6 @@ function Humanoid(specifics){
   this.weapons = specifics.weapons;
   this.language = specifics.language
 }
-  Humanoid.prototype = Object.create(GameObject.prototype);
   Humanoid.prototype = Object.create(CharacterStats.prototype);
 
   Humanoid.prototype.greet = function(){
